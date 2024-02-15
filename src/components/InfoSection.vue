@@ -10,12 +10,12 @@ const props = defineProps([
 ]);
 </script>
 <template>
-  <div class="info-section">
+  <!-- <div class="info-section">
     <p v-if="gameStarted && !gameFinished">Score : {{ score }}</p>
     <p v-if="gameStarted && !hideIcon && !hideQuestion">
       You have 5 seconds to remember
     </p>
     <h1 v-if="gameFinished">Game Over</h1>
-  </div>
+  </div> -->
 </template>
 <style></style>

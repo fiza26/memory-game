@@ -179,9 +179,7 @@ const currentQuestion = computed(() => {
 const answered = ref(false);
 const gameFinished = computed(() => {
   return (
-    currentQuestionIndex.value === questions.length - 1 &&
-    gameStarted.value &&
-    answered.value
+    currentQuestionIndex.value === questions.length 
   );
 });
 
